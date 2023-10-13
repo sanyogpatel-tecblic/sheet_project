@@ -70,7 +70,7 @@ class SendEmailToAll(APIView):
                 row['basic_salary_earnings']
                 + row['house_rent_allowance_earnings']
                 + row['conveyance_allowance_earnings']
-                + row['special_allowance_earnings']
+                + row['special_allowance_earnings'] 
             )
             row['total_earnings_earnings'] = total_earnings_earnings
             print(f'Total Earnings Actual Rate Earnings: {total_earnings_earnings}')
